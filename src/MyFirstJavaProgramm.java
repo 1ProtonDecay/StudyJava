@@ -1,6 +1,6 @@
-public class MyFirstJavaProgramm {
+/*public class MyFirstJavaProgramm {
     /*Это моя первая программа на Java. В результате выполнения на экран будет выведено  "Привет, мир"*/
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         System.out.println("Hello, world");
         System.exit(-1);
     }
@@ -15,3 +15,19 @@ main: это имя метода, который JVM ищет в качеств�
 String args []: это параметр, передаваемый в основной метод.
 - System.out.println: конструкция для печати данных с переводом строки вниз
  */
+
+public class MyFirstJavaProgramm {
+    public static void main(String args[]) {
+        int a = 10;
+        int b = 20;
+        System.out.println("a + b = " + (a + b));
+        System.out.println("b - a = "  + (b - a));
+        System.out.println("b * a = " + (b * a));
+        System.out.println("b / a = "  + (b / a));
+        System.out.println("b % a = " + (b % a));
+        System.out.println("a++ = "  + (++a));
+        System.out.println("b-- = "  + (--b));
+
+
+    }
+}
