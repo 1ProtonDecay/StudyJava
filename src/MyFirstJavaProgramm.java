@@ -39,19 +39,38 @@ public class MyFirstJavaProgramm {
 //        }
 //    }
 //    }
-    public static void main(String args[]) {
-        char grade = 'C';
-        switch (grade) {
-            case ('A'):
-                out.println("Отлично");
-                break;
-            case ('B'):
-            case ('C'):
-                out.println("Хорошо");
-                break;
-            default:
-                out.println("Неверно");
-        }
-        System.out.println("Ваша оценка " + grade);
-    }
-}
+//    public static void main(String args[]) {
+//        char grade = 'C';
+//        switch (grade) {
+//            case ('A'):
+//                out.println("Отлично");
+//                break;
+//            case ('B'):
+//            case ('C'):
+//                out.println("Хорошо");
+//                break;
+//            default:
+//                out.println("Неверно");
+//        }
+//        System.out.println("Ваша оценка " + grade);
+//    }
+//}
+//public static void main(String[] args){
+//int x;
+//x = 10;
+//while (x < 15){
+//    out.println("Значение х: " + x);
+//    x++;
+//    out.println("\n");
+//}
+//}
+//}
+
+//    public static void main(String[] args) {
+//        int x;
+//        for (x = 10; x < 15; x = x + 1) {
+//            out.print("Значение х: " + x);
+//            out.print("\n");
+//        }
+//    }
+//}
